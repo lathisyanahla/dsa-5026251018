@@ -16,12 +16,10 @@ public class Main {
             int pages = scanner.nextInt();
 
             PrintJob job;
-            if (type.equalsIgnoreCase("MONO")) {
+            if (type.equals("MONO")) {
                 job = new MonoPrint(id, pages);
-            } else if (type.equalsIgnoreCase("COLOUR")) {
-                job = new ColourPrint(id, pages);
             } else {
-                continue;
+                job = new ColourPrint(id, pages);
             }
             jobs.add(job);
         }
