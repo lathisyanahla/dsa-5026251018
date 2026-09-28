@@ -1,6 +1,6 @@
 package lw01.unguided;
 
-import java.util.ArrayList;
+/* import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -32,4 +32,4 @@ public class Main {
             System.out.println(rental.summary());
         }
     }
-}
+} */
